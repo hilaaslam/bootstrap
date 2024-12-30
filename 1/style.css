@@ -1,0 +1,24 @@
+/* .br-n{
+    border: none;
+} */
+
+        /* Custom CSS to remove border from accordion */
+        .accordion-item {
+            border: none !important;
+        }
+    
+        .accordion-button {
+            border: none !important;
+        }
+    
+        .accordion-button:not(.collapsed) {
+            border: none !important;
+        }
+    
+        .accordion-button.collapsed {
+            border: none !important;
+        }
+    
+        .accordion-flush {
+            border: none !important;
+        }
